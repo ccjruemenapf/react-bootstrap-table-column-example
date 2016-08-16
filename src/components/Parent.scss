@@ -1,0 +1,48 @@
+/*
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+$body-bg: #f7f7f7;
+$text-color: #333;
+$nav-top-bg-color: #00897B;
+$breadcrumb-bg-color: #EBEBEB;
+$btn-black-color: #4A4A4A;
+
+/*
+ * Typography
+ * -------------------------------------------------------------------------- */
+
+$font-family-base: 'Roboto', 'Helvetica', sans-serif;
+$font-black: #000;
+
+/*
+ * Overall Page Style
+ * -------------------------------------------------------------------------- */
+
+$footer-height: 50px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: $footer-height;
+  font-family: $font-family-base !important;
+}
+
+h1 {
+  font-size: large !important;
+  font-weight: bold !important;
+}
+
+h2 {
+  font-size: large !important;
+  font-weight: normal !important;
+}
+
+h3 {
+  font-size: medium !important;
+  font-weight: normal !important;
+}
+
